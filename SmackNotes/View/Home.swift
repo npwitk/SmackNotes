@@ -54,10 +54,12 @@ struct Home: View {
                         
                     }
                 } header: {
-                    HStack(spacing: 5) {
+                    HStack(alignment: .center) {
                         Text("Categories")
                         
-                        Button("", systemImage: "plus") {
+                        Spacer()
+                        
+                        Button("", systemImage: "plus.circle") {
                             addCategory.toggle()
                         }
                         .tint(.gray)
@@ -86,7 +88,7 @@ struct Home: View {
         }
         .alert("Rename Category", isPresented: $renameRequest) {
             
-            TextField("Record Video", text: $categoryTitle)
+            TextField("Name your category...", text: $categoryTitle)
             
             Button("Cancel", role: .cancel) {
                 categoryTitle = ""
