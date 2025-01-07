@@ -17,5 +17,5 @@ SmackNotes is a simple macOS notes app built with SwiftUI and SwiftData that off
 
 ## Screenshots  
 
-![](Images/readme_screenshots_light.png)  
-![](Images/readme_screenshots_dark.png)  
+![](Images/readme_screenshots_light.png#gh-light-mode-only)  
+![](Images/readme_screenshots_dark.png#gh-dark-mode-only)  
